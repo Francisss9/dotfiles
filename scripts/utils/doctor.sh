@@ -25,7 +25,6 @@ CHECK_PATHS=(
     "$HOME/.zshrc"
     "$HOME/.bashrc"
     "$HOME/.config/hypr/hyprland.conf"
-    "$HOME/.config/waybar/config.jsonc"
     "$HOME/.config/nvim/init.lua"
     "$HOME/.config/kitty/kitty.conf"
     "$HOME/.config/ghostty/config"
