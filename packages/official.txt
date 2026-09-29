@@ -1,0 +1,15 @@
+btrfs-progs
+emacs
+firefox
+ghostty
+git
+glow
+nano
+pacman-contrib
+shellcheck
+stow
+tlp
+tlp-pd
+upower
+wikiman
+zoxide

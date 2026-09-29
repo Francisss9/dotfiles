@@ -1,0 +1,15 @@
+# hosts.map - Mapeamento de hardware para pastas em system/hosts/
+#
+# Formato: <padrão regex (case-insensitive)>|<pasta em hosts/>
+# O padrão é comparado contra "sys_vendor product_name" combinados,
+# lidos de /sys/class/dmi/id/. Primeira linha que der match, ganha.
+#
+# Para saberes o teu padrão numa máquina nova:
+#   cat /sys/class/dmi/id/sys_vendor
+#   cat /sys/class/dmi/id/product_name
+#
+# Exemplos (descomenta/ajusta quando tiveres a máquina à frente):
+# LENOVO.*20L5      | t480
+# LENOVO.*Legion.*   | legion
+
+LENOVO.*20JNS19V00 | t470

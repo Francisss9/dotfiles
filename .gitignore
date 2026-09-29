@@ -1,0 +1,25 @@
+# Editor / backup files
+*.bak
+*.bak.*
+*.save
+*~
+
+# macOS
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Secrets / credentials
+.env*
+*.pem
+*.key
+id_*
+.git-credentials
+.ssh/
+.gnupg/
+*.kdbx
