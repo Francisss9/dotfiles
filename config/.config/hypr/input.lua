@@ -1,20 +1,20 @@
 hl.config({
-  input = {
-    kb_layout = "pt",
-    kb_options = "caps:lock",
+	input = {
+		kb_layout = "pt",
+		kb_options = "caps:lock",
 
-    repeat_rate = 40,
-    repeat_delay = 600,
+		repeat_rate = 40,
+		repeat_delay = 600,
 
-    numlock_by_default = true,
+		numlock_by_default = true,
 
-    sensitivity = 0.15,
+		sensitivity = 0.25,
 
-    touchpad = {
-      natural_scroll = true,
-      scroll_factor = 0.3,
-    },
-  },
+		touchpad = {
+			natural_scroll = true,
+			scroll_factor = 1,
+		},
+	},
 })
 
 o.window("(Alacritty|kitty|foot)", { scroll_touchpad = 1.5 })
