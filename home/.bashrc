@@ -32,6 +32,7 @@ alias vim='nvim'
 alias wayload='pkill waybar && waybar &'
 alias flash-iso='"$HOME/Documents/scripts/flash-iso.sh"'
 alias doom='doom emacs'
+alias kali='VBoxManage startvm kali-chaos --type separate'
 # Make an alias for invoking commands you use constantly
 
 
